@@ -51,7 +51,42 @@ servicios en funciones independientes. Los resultados se validan, se documentan 
 - Variables: TARGET, PORT_RANGE, SCAN_MODE, OUTPUT_FORMAT
 
 ### 🧭 Tarea 2
+- ObeseleteTechFinder
+- **Propósito**: 
+Analizar los servicios y versiones detectados en el escaneo previo para identificar tecnologías obsoletas o vulnerables. 
+Esto permite priorizar riesgos y tomar decisiones defensivas informadas.
+- **Rol o área relacionada**:
+SOC, DFIR, Gestión de vulnerabilidades, Auditoría continua
+- **Entradas esperadas**: 
+- Archivo JSON/CSV con servicios y versiones (scan_results.json)
+- Base de datos local o remota de tecnologías obsoletas (obsolete_db.json, cve_cache.json)
+- Opciones: --anonymize, --risk-level, --recommendations
 
+- **Salidas esperadas**: 
+- Reporte de servicios obsoletos o vulnerables
+- Exportación en formato estructurado (JSON, CSV)
+- Ejemplo: Apache 2.2 - Obsoleto desde 2017 - Riesgo: Alto - Recomendación: Migrar a 2.4+
+
+- **Descripción del procedimiento**:
+El módulo separa la lógica de detección de obsolescencia y correlación con CVEs. Compara versiones contra bases locales o APIs externas 
+(NVD, ExploitDB). Genera reportes con observaciones, nivel de riesgo y recomendaciones defensivas.
+
+- **Complejidad técnica**: 
+  - Parsing y correlación de versiones
+  - Integración con múltiples fuentes (locales y remotas)
+  - Automatización de análisis y exportación
+  - Logging estructurado y control de versiones del módulo
+  - Modularidad: funciones separadas para obsolescencia, CVE y exportación
+
+- **Controles éticos**: 
+  - Análisis solo sobre datos obtenidos con consentimiento
+  -  Uso de bases de datos públicas y documentadas
+  - Opción de anonimización de resultados
+
+- **Dependencias**:
+- Python ≥ 3.8
+- Librerías: json, csv, requests, re, argparse, logging
+- Variables: INPUT_FILE, OBSOLETE_DB, OUTPUT_FORMAT, ANONYMIZE
 
 ---
 
