@@ -88,19 +88,6 @@ El módulo separa la lógica de detección de obsolescencia y correlación con C
 - Librerías: json, csv, requests, re, argparse, logging
 - Variables: INPUT_FILE, OBSOLETE_DB, OUTPUT_FORMAT, ANONYMIZE
 
----
-
-## 🗂️ Estructura inicial del repositorio (ejemplo)
-/src 
-/docs 
-/examples 
-/proposals 
-/tests 
-/prompts 
-README.md (se revisará versión completa al final)
-.gitignore
-
-> Esta estructura puede crecer conforme avance el proyecto. Cada carpeta tendrá una función clara y estará documentada en `/docs`.
 
 ---
 
