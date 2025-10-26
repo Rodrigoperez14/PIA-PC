@@ -95,12 +95,9 @@ El módulo separa la lógica de detección de obsolescencia y correlación con C
 
 | Integrante | Rol o responsabilidad |
 |------------|------------------------|
-| [Nombre 1] | [Ej. adquisición de datos] |
-| [Nombre 2] | [Ej. análisis y parsing] |
-| [Nombre 3] | [Ej. integración y orquestación] |
-| [Nombre 4] | [Ej. documentación y reportes] |
-
-> Los roles pueden ajustarse conforme evolucione el proyecto.
+| Jose Rodrigo Perez Gonzalez      | Adquisición de datos] |
+| Rodolfo Uriel Hernandez de Leon  | Análisis y parsing] |
+| Victor Adrian Rodriguez Ortiz    | Integración y orquestación] |
 
 ---
 
