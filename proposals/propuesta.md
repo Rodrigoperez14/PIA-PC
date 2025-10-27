@@ -4,8 +4,8 @@
 > ScanShield
 
 ## 📌 Descripción general del proyecto
-> En este proyecto haremos un escaneo de puertos, mostrando puertos abiertos y vulnerables a ataques en base a esos puertos veremos sus versiones/servicios detras de ellos, 
-averiguando vulnerabilidades y corregirlas, dividiremos esto en dos tareas, scripts y generando reportes 
+> En este proyecto haremos un escaneo de puertos, mostrando puertos abiertos y vulnerables a ataques en base a esos puertos, veremos sus versiones/servicios que corren detras de ellos, 
+averiguando vulnerabilidades y corregiendolas, dividiremos esto en dos tareas con sus respectivos scripts y generando reportes.
 
 
 ## 🧪 Tareas propuestas
@@ -95,9 +95,9 @@ El módulo separa la lógica de detección de obsolescencia y correlación con C
 
 | Integrante | Rol o responsabilidad |
 |------------|------------------------|
-| Jose Rodrigo Perez Gonzalez      | Adquisición de datos] |
-| Rodolfo Uriel Hernandez de Leon  | Análisis y parsing] |
-| Victor Adrian Rodriguez Ortiz    | Integración y orquestación] |
+| Jose Rodrigo Perez Gonzalez      | Adquisición de datos |
+| Rodolfo Uriel Hernandez de Leon  | Análisis y parsing |
+| Victor Adrian Rodriguez Ortiz    | Integración y orquestación |
 
 ---
 
@@ -111,8 +111,6 @@ El equipo se compromete a documentar cualquier riesgo ético y aplicar medidas d
 ## 🤝 Evidencia de colaboración inicial (elegir uno o más)
 
 - [ ] Commits realizados por más de un integrante
-- [ ] Issues creados para organizar tareas
-- [ ] Pull requests abiertos o revisados
 - [ ] Actividad visible en GitHub desde el inicio del proyecto
 
 ---
