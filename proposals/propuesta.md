@@ -32,39 +32,40 @@ El módulo realiza un escaneo activo de los puertos activos. Se separa la lógic
 servicios/versiones en funciones independientes. Los resultados se validan, se documentan y se exportan para análisis posterior.
 
 - **Complejidad técnica**:
-- Parsing de resultados (nmap, socket, masscan).
-- Validación de argumentos (ipaddress, re, argparse).
-- Logging estructurado por niveles (INFO, WARNING, ERROR).
-- Exportación modular (json, csv, txt).
-- Modularidad: funciones separadas para escaneo, adquisición de servicios/versiones y exportación.
+  - Parsing de resultados (nmap, socket, masscan).
+  - Validación de argumentos (ipaddress, re, argparse).
+  - Logging estructurado por niveles (INFO, WARNING, ERROR).
+  - Exportación modular (json, csv, txt).
+  - Modularidad: funciones separadas para escaneo, adquisición de servicios/versiones y exportación.
 
 - **Controles éticos**:
-- Escaneo solo en ambientes propios, controlados o con consentimiento explícito.
-- Uso de datos sintéticos para pruebas.
-- Documentación clara de límites y alcance del escaneo.
+  - Escaneo solo en ambientes propios, controlados o con consentimiento explícito.
+  - Uso de datos sintéticos para pruebas.
+  - Documentación clara de límites y alcance del escaneo.
 
 - **Dependencias**:
-- Herramientas externas: nmap, masscan.
-- Python ≥ 3.8
-- Librerías: argparse, subprocess, json, csv, logging, ipaddress, re, etc.
-- Variables: IP, HOST, RANGO_PUERTOS, FORMATO_SALIDA.
+  - Herramientas externas: nmap, masscan.
+  - Python ≥ 3.8
+  - Librerías: argparse, subprocess, json, csv, logging, ipaddress, re, etc.
+  - Variables: IP, HOST, RANGO_PUERTOS, FORMATO_SALIDA.
 
 ### 🧭 Tarea 2
 - Identificar tecnología obsoleta.
 - **Propósito**: 
 Analizar los servicios y versiones detectados en el escaneo previo para identificar tecnologías obsoletas o vulnerables. 
 Esto permite priorizar riesgos y tomar decisiones defensivas informadas.
-- **Rol o área relacionada**:
-SOC, DFIR, Gestión de vulnerabilidades, Auditoría continua.
+
+- **Rol o área relacionada**: SOC, DFIR, Gestión de vulnerabilidades, Auditoría continua.
+  
 - **Entradas esperadas**: 
-- Archivo JSON/CSV con servicios y versiones (resultado_escaneo.json).
-- Investigar tecnologías obsoletas que se puedan presentar en una adquisición de servicios/versiones.
-- Opciones: --anonymize, --risk-level, --recommendations
+  - Archivo JSON/CSV con servicios y versiones (resultado_escaneo.json).
+  - Investigar tecnologías obsoletas que se puedan presentar en una adquisición de servicios/versiones.
+  - Opciones: --anonymize, --risk-level, --recommendations
 
 - **Salidas esperadas**: 
-- Reporte de servicios obsoletos o vulnerables.
-- Exportación en formato estructurado (JSON o CSV).
-- Ejemplo: Apache 2.2 - Obsoleto desde 2017 - Riesgo: Alto - Recomendación: Migrar a 2.4+.
+  - Reporte de servicios obsoletos o vulnerables.
+  - Exportación en formato estructurado (JSON o CSV).
+  - Ejemplo: Apache 2.2 - Obsoleto desde 2017 - Riesgo: Alto - Recomendación: Migrar a 2.4+.
 
 - **Descripción del procedimiento**:
 El módulo separa la lógica de detección de obsolescencia y correlación con las vulnerabilidades comunes. Compara versiones contra la investigación previa de tecnologías obsoletas. Genera reportes con observaciones, nivel de riesgo y recomendaciones defensivas.
@@ -82,9 +83,9 @@ El módulo separa la lógica de detección de obsolescencia y correlación con l
   - No revelar datos sensibles/personales en los resultados.
 
 - **Dependencias**:
-- Python ≥ 3.8
-- Librerías: json, csv, requests, re, argparse, logging.
-- Variables: ARCHIVO_ENTRADA, OBSOLETO, FORMATO_SALIDA, ANONIMO
+  - Python ≥ 3.8
+  - Librerías: json, csv, requests, re, argparse, logging.
+  - Variables: ARCHIVO_ENTRADA, OBSOLETO, FORMATO_SALIDA, ANONIMO
 
 
 ---
