@@ -40,10 +40,6 @@ El equipo se compromete a documentar cualquier riesgo ético y aplicar medidas d
 ## ▶️ Cómo ejecutar (Tarea 1)
   **¡Importante!** Requiere ejecutar como administrador o `sudo/root` para Scapy (Ping).
   
-**Ejecución con permisos (Recomendado):**
+**Ejecución con permisos:**
 * `sudo python ./scripts/scanner_tarea1.py`
 * `sudo python ./scripts/scanner_tarea1.py 192.168.1.1`
-
-**Ejecución sin permisos (Opción 1 fallará):**
-* `python ./scripts/scanner_tarea1.py`
-* `python ./scripts/scanner_tarea1.py 192.168.1.1`
