@@ -88,7 +88,7 @@
 
 ## 🤝 Colaboración
 
-> El compañero Victor Adrian Rodriguez Ortiz se encargó de realizar la primer tarea. El progreso se puede verificar a través de los commits realizados por mi usuario `Viadroor062` en el historial del repositorio de GitHub.
+> El compañero Victor Adrian Rodriguez Ortiz se encargó de realizar la primer tarea. El progreso se puede verificar a través de los commits realizados por su usuario `Viadroor062` en el historial del repositorio de GitHub.
 > Las próximas 2 tareas serán realizadas por José Rodrigo Pérez Gonzalez y Rodolfo Uriel Hernández de León
 
 ---
