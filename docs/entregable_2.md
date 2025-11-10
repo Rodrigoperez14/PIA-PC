@@ -15,7 +15,6 @@
   > 2. **Escanear Puertos/Servicios:**
   >    a. Primero, usa `socket` para intentar una conexión TCP contra una lista predefinida de puertos (21, 22, 80, 443, etc.) y determina si están "ABIERTOS" o "CERRADOS".
   >    b. Segundo, para los puertos encontrados ABIERTOS, utiliza `python-nmap` para ejecutar un escaneo de versión (`-sV`) y identificar el servicio y la versión que se ejecutan en ellos.
-
   > 3. **Salir:** Termina la ejecución.
   >    **Salidas:** Todas las acciones se registran en `registro.log`. La Opción 2 genera dos reportes: un listado de puertos en `puertos_abiertos.txt` y un análisis detallado de servicios en `S_V_de_puertos_activos.json`.
 
