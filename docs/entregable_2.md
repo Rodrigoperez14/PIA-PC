@@ -70,19 +70,19 @@
 
 * **Dependencias de Python:**
 
-* `scapy`: (`pip install scapy`)
+  * `scapy`: (`pip install scapy`)
 
-* `python-nmap`: (`pip install python-nmap`)
+  * `python-nmap`: (`pip install python-nmap`)
 
-* (Las demás: `socket`, `json`, `logging`, `sys` son estándar)
+  * (Las demás: `socket`, `json`, `logging`, `sys` son estándar)
 
 * **Dependencias de Sistema:**
 
-* **Nmap:** El script `python-nmap` es solo un *wrapper*. La herramienta `nmap` debe estar instalada en el sistema operativo (`sudo apt install nmap` o equivalente).
+  * **Nmap:** El script `python-nmap` es solo un *wrapper*. La herramienta `nmap` debe estar instalada en el sistema operativo (`sudo apt install nmap` o equivalente).
 
 * **Privilegios:**
 
-* La función `enviar_pkt` utiliza Scapy para crear paquetes ICMP crudos, lo cual **requiere privilegios de administrador o superusuario (sudo/root)** para funcionar en la mayoría de los sistemas operativos.
+  * La función `enviar_pkt` utiliza Scapy para crear paquetes ICMP crudos, lo cual **requiere privilegios de administrador o superusuario (sudo/root)** para funcionar en la mayoría de los sistemas operativos.
 
 ---
 
