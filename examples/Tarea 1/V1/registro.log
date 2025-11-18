@@ -1,0 +1,31 @@
+2025-11-10 09:44:23,526 - INFO - Se trabajará en base a la ip que proporciona el usuario: 192.168.35.133
+2025-11-10 09:44:23,526 - INFO - INICIA UNA NUEVA CONSULTA.
+2025-11-10 09:44:23,526 - INFO - Se crea un menú interactivo.
+2025-11-10 09:44:33,548 - INFO - Se confirma la ejecución de la tarea 1
+2025-11-10 09:44:33,549 - INFO - Inicia la comprobación de conexión con la ip: 192.168.35.133
+2025-11-10 09:44:33,564 - INFO - Se confirma que la ip: 192.168.35.133 está activa
+2025-11-10 09:44:33,564 - INFO - Termina la comprobación de conexión con la ip: 192.168.35.133
+2025-11-10 09:44:42,659 - INFO - Se confirma la ejecución de la tarea 2
+2025-11-10 09:44:42,660 - INFO - Iniciando escaneo de puertos en: 192.168.35.133
+2025-11-10 09:44:42,677 - INFO - El puerto: 21 (FTP) está ABIERTO
+2025-11-10 09:44:42,679 - INFO - Se termina la conexión con el puerto: 21 - FTP
+2025-11-10 09:44:42,681 - INFO - El puerto: 22 (SSH) está ABIERTO
+2025-11-10 09:44:42,682 - INFO - Se termina la conexión con el puerto: 22 - SSH
+2025-11-10 09:44:42,685 - INFO - El puerto: 25 (SMTP) está ABIERTO
+2025-11-10 09:44:42,686 - INFO - Se termina la conexión con el puerto: 25 - SMTP
+2025-11-10 09:44:42,689 - INFO - El puerto: 80 (HTTP) está ABIERTO
+2025-11-10 09:44:42,690 - INFO - Se termina la conexión con el puerto: 80 - HTTP
+2025-11-10 09:44:43,690 - INFO - El puerto: 110 (POP3) está CERRADO
+2025-11-10 09:44:43,692 - INFO - Se termina la conexión con el puerto: 110 - POP3
+2025-11-10 09:44:44,692 - INFO - El puerto: 143 (IMAP) está CERRADO
+2025-11-10 09:44:44,694 - INFO - Se termina la conexión con el puerto: 143 - IMAP
+2025-11-10 09:44:45,694 - INFO - El puerto: 443 (HTTPS) está CERRADO
+2025-11-10 09:44:45,696 - INFO - Se termina la conexión con el puerto: 443 - HTTPS
+2025-11-10 09:44:46,698 - INFO - El puerto: 3389 (RDP) está CERRADO
+2025-11-10 09:44:46,699 - INFO - Se termina la conexión con el puerto: 3389 - RDP
+2025-11-10 09:44:46,700 - INFO - Se genera el reporte con nombre: puertos_abiertos.txt
+2025-11-10 09:44:46,700 - INFO - Termina la comprobación de puertos abiertos de la ip: 192.168.35.133
+2025-11-10 09:44:47,705 - INFO - Inicia el escaneo con nmap para la ip: 192.168.35.133
+2025-11-10 09:44:58,560 - INFO - Se genera el reporte con nombre: S_V_de_puertos_activos.json
+2025-11-10 09:44:58,560 - INFO - Fin del escaneo con nmap para la ip: 192.168.35.133
+2025-11-10 09:45:28,736 - INFO - Se termina la ejecución del programa
