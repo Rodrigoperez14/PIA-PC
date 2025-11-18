@@ -97,4 +97,4 @@
 
 * **Dependencia de Privilegios:** Es importante ejecutar el script como administrador o superusuario para que no haya errores.
 
-* **Archivo jsonl:** Queda pendiente implementar la creación del archivo `registro.jsonl` para guardar en otro formato todos los logs generados.
+* **Archivo jsonl:** Queda implementado el archivo `registro.jsonl` para guardar todos los logs generados.
