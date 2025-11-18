@@ -1,0 +1,81 @@
+{
+    "nmap": {
+        "command_line": "nmap -oX - -p 21,22,25,80 -sV 192.168.159.128",
+        "scaninfo": {
+            "tcp": {
+                "method": "syn",
+                "services": "21-22,25,80"
+            }
+        },
+        "scanstats": {
+            "timestr": "Tue Nov 18 15:38:51 2025",
+            "elapsed": "7.35",
+            "uphosts": "1",
+            "downhosts": "0",
+            "totalhosts": "1"
+        }
+    },
+    "scan": {
+        "192.168.159.128": {
+            "hostnames": [
+                {
+                    "name": "",
+                    "type": ""
+                }
+            ],
+            "addresses": {
+                "ipv4": "192.168.159.128",
+                "mac": "00:0C:29:E2:8D:2C"
+            },
+            "vendor": {
+                "00:0C:29:E2:8D:2C": "VMware"
+            },
+            "status": {
+                "state": "up",
+                "reason": "arp-response"
+            },
+            "tcp": {
+                "21": {
+                    "state": "open",
+                    "reason": "syn-ack",
+                    "name": "ftp",
+                    "product": "vsftpd",
+                    "version": "2.3.4",
+                    "extrainfo": "",
+                    "conf": "10",
+                    "cpe": "cpe:/a:vsftpd:vsftpd:2.3.4"
+                },
+                "22": {
+                    "state": "open",
+                    "reason": "syn-ack",
+                    "name": "ssh",
+                    "product": "OpenSSH",
+                    "version": "4.7p1 Debian 8ubuntu1",
+                    "extrainfo": "protocol 2.0",
+                    "conf": "10",
+                    "cpe": "cpe:/o:linux:linux_kernel"
+                },
+                "25": {
+                    "state": "open",
+                    "reason": "syn-ack",
+                    "name": "smtp",
+                    "product": "Postfix smtpd",
+                    "version": "",
+                    "extrainfo": "",
+                    "conf": "10",
+                    "cpe": "cpe:/a:postfix:postfix"
+                },
+                "80": {
+                    "state": "open",
+                    "reason": "syn-ack",
+                    "name": "http",
+                    "product": "Apache httpd",
+                    "version": "2.2.8",
+                    "extrainfo": "(Ubuntu) DAV/2",
+                    "conf": "10",
+                    "cpe": "cpe:/a:apache:http_server:2.2.8"
+                }
+            }
+        }
+    }
+}
