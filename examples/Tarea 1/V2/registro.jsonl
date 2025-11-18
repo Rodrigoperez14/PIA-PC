@@ -1,34 +1,35 @@
-{"time": "2025-11-18 15:38:26", "event": "Se trabajará en base a la ip predeterminada: 192.168.159.128", "level": "INFO"}
-{"time": "2025-11-18 15:38:26", "event": "INICIA UNA NUEVA CONSULTA.", "level": "INFO"}
-{"time": "2025-11-18 15:38:26", "event": "Se crea un menú interactivo.", "level": "INFO"}
-{"time": "2025-11-18 15:38:32", "event": "El usuario seleccionó la opción: 1", "level": "INFO"}
-{"time": "2025-11-18 15:38:35", "event": "Se confirma la ejecución de la tarea 1", "level": "INFO"}
-{"time": "2025-11-18 15:38:35", "event": "Inicia la comprobación de conexión con la ip: 192.168.159.128", "level": "INFO"}
-{"time": "2025-11-18 15:38:35", "event": "Se confirma que la ip: 192.168.159.128 está activa", "level": "INFO"}
-{"time": "2025-11-18 15:38:35", "event": "Termina la comprobación de conexión con la ip: 192.168.159.128", "level": "INFO"}
-{"time": "2025-11-18 15:38:37", "event": "El usuario seleccionó la opción: 2", "level": "INFO"}
-{"time": "2025-11-18 15:38:39", "event": "Se confirma la ejecución de la tarea 2", "level": "INFO"}
-{"time": "2025-11-18 15:38:39", "event": "Iniciando escaneo de puertos en: 192.168.159.128", "level": "INFO"}
-{"time": "2025-11-18 15:38:39", "event": "El puerto: 21 (FTP) está ABIERTO", "level": "INFO"}
-{"time": "2025-11-18 15:38:39", "event": "Se termina la conexión con el puerto: 21 - FTP", "level": "INFO"}
-{"time": "2025-11-18 15:38:39", "event": "El puerto: 22 (SSH) está ABIERTO", "level": "INFO"}
-{"time": "2025-11-18 15:38:39", "event": "Se termina la conexión con el puerto: 22 - SSH", "level": "INFO"}
-{"time": "2025-11-18 15:38:39", "event": "El puerto: 25 (SMTP) está ABIERTO", "level": "INFO"}
-{"time": "2025-11-18 15:38:39", "event": "Se termina la conexión con el puerto: 25 - SMTP", "level": "INFO"}
-{"time": "2025-11-18 15:38:39", "event": "El puerto: 80 (HTTP) está ABIERTO", "level": "INFO"}
-{"time": "2025-11-18 15:38:39", "event": "Se termina la conexión con el puerto: 80 - HTTP", "level": "INFO"}
-{"time": "2025-11-18 15:38:40", "event": "El puerto: 110 (POP3) está CERRADO", "level": "INFO"}
-{"time": "2025-11-18 15:38:40", "event": "Se termina la conexión con el puerto: 110 - POP3", "level": "INFO"}
-{"time": "2025-11-18 15:38:41", "event": "El puerto: 143 (IMAP) está CERRADO", "level": "INFO"}
-{"time": "2025-11-18 15:38:41", "event": "Se termina la conexión con el puerto: 143 - IMAP", "level": "INFO"}
-{"time": "2025-11-18 15:38:42", "event": "El puerto: 443 (HTTPS) está CERRADO", "level": "INFO"}
-{"time": "2025-11-18 15:38:42", "event": "Se termina la conexión con el puerto: 443 - HTTPS", "level": "INFO"}
-{"time": "2025-11-18 15:38:43", "event": "El puerto: 3389 (RDP) está CERRADO", "level": "INFO"}
-{"time": "2025-11-18 15:38:43", "event": "Se termina la conexión con el puerto: 3389 - RDP", "level": "INFO"}
-{"time": "2025-11-18 15:38:43", "event": "Se genera el reporte con nombre: puertos_abiertos.txt", "level": "INFO"}
-{"time": "2025-11-18 15:38:43", "event": "Termina la comprobación de puertos abiertos de la ip: 192.168.159.128", "level": "INFO"}
-{"time": "2025-11-18 15:38:43", "event": "Inicia el escaneo con nmap para la ip: 192.168.159.128", "level": "INFO"}
-{"time": "2025-11-18 15:38:51", "event": "Se genera el reporte con nombre: S_V_de_puertos_activos.json", "level": "INFO"}
-{"time": "2025-11-18 15:38:51", "event": "Fin del escaneo con nmap para la ip: 192.168.159.128", "level": "INFO"}
-{"time": "2025-11-18 15:38:55", "event": "El usuario seleccionó la opción: 3", "level": "INFO"}
-{"time": "2025-11-18 15:38:55", "event": "Se termina la ejecución del programa", "level": "INFO"}
+{"time": "2025-11-18 16:00:42", "level": "INFO", "event": "Se trabajará en base a la ip predeterminada: 192.168.159.128"}
+{"time": "2025-11-18 16:00:42", "level": "INFO", "event": "INICIA UNA NUEVA CONSULTA."}
+{"time": "2025-11-18 16:00:42", "level": "INFO", "event": "Se crea un menú interactivo."}
+{"time": "2025-11-18 16:00:43", "level": "INFO", "event": "El usuario seleccionó la opción: 1"}
+{"time": "2025-11-18 16:00:45", "level": "INFO", "event": "Se confirma la ejecución de la tarea 1"}
+{"time": "2025-11-18 16:00:45", "level": "INFO", "event": "Inicia la comprobación de conexión con la ip: 192.168.159.128"}
+{"time": "2025-11-18 16:00:45", "level": "INFO", "event": "Se confirma que la ip: 192.168.159.128 está activa"}
+{"time": "2025-11-18 16:00:45", "level": "INFO", "event": "Termina la comprobación de conexión con la ip: 192.168.159.128"}
+{"time": "2025-11-18 16:00:49", "level": "INFO", "event": "El usuario seleccionó la opción: 2"}
+{"time": "2025-11-18 16:00:51", "level": "INFO", "event": "Se confirma la ejecución de la tarea 2"}
+{"time": "2025-11-18 16:00:51", "level": "INFO", "event": "Iniciando escaneo de puertos en: 192.168.159.128"}
+{"time": "2025-11-18 16:00:51", "level": "INFO", "event": "El puerto: 21 (FTP) está ABIERTO"}
+{"time": "2025-11-18 16:00:51", "level": "INFO", "event": "Se termina la conexión con el puerto: 21 - FTP"}
+{"time": "2025-11-18 16:00:51", "level": "INFO", "event": "El puerto: 22 (SSH) está ABIERTO"}
+{"time": "2025-11-18 16:00:51", "level": "INFO", "event": "Se termina la conexión con el puerto: 22 - SSH"}
+{"time": "2025-11-18 16:00:51", "level": "INFO", "event": "El puerto: 25 (SMTP) está ABIERTO"}
+{"time": "2025-11-18 16:00:51", "level": "INFO", "event": "Se termina la conexión con el puerto: 25 - SMTP"}
+{"time": "2025-11-18 16:00:51", "level": "INFO", "event": "El puerto: 80 (HTTP) está ABIERTO"}
+{"time": "2025-11-18 16:00:51", "level": "INFO", "event": "Se termina la conexión con el puerto: 80 - HTTP"}
+{"time": "2025-11-18 16:00:52", "level": "INFO", "event": "El puerto: 110 (POP3) está CERRADO"}
+{"time": "2025-11-18 16:00:52", "level": "INFO", "event": "Se termina la conexión con el puerto: 110 - POP3"}
+{"time": "2025-11-18 16:00:53", "level": "INFO", "event": "El puerto: 143 (IMAP) está CERRADO"}
+{"time": "2025-11-18 16:00:53", "level": "INFO", "event": "Se termina la conexión con el puerto: 143 - IMAP"}
+{"time": "2025-11-18 16:00:54", "level": "INFO", "event": "El puerto: 443 (HTTPS) está CERRADO"}
+{"time": "2025-11-18 16:00:54", "level": "INFO", "event": "Se termina la conexión con el puerto: 443 - HTTPS"}
+{"time": "2025-11-18 16:00:55", "level": "INFO", "event": "El puerto: 3389 (RDP) está CERRADO"}
+{"time": "2025-11-18 16:00:55", "level": "INFO", "event": "Se termina la conexión con el puerto: 3389 - RDP"}
+{"time": "2025-11-18 16:00:55", "level": "INFO", "event": "Se genera el reporte con nombre: puertos_abiertos.txt"}
+{"time": "2025-11-18 16:00:55", "level": "INFO", "event": "Termina la comprobación de puertos abiertos de la ip: 192.168.159.128"}
+{"time": "2025-11-18 16:00:55", "level": "INFO", "event": "Inicia el escaneo con nmap para la ip: 192.168.159.128"}
+{"time": "2025-11-18 16:01:02", "level": "INFO", "event": "Se genera el reporte con nombre: S_V_de_puertos_activos.json"}
+{"time": "2025-11-18 16:01:02", "level": "INFO", "event": "Fin del escaneo con nmap para la ip: 192.168.159.128"}
+{"time": "2025-11-18 16:01:06", "level": "INFO", "event": "El usuario seleccionó la opción: 3"}
+{"time": "2025-11-18 16:01:06", "level": "INFO", "event": "Se termina la ejecución del programa"}
+
