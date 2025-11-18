@@ -5,8 +5,8 @@ from datetime import datetime
 def log_json(evento, nivel="INFO"):
     entrada = {
         "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "event": evento,
-        "level": nivel
+        "level": nivel,
+        "event": evento
     }
     with open("registro.jsonl", "a", encoding="utf-8") as file:
         file.write(json.dumps(entrada, ensure_ascii=False) + "\n")
@@ -160,3 +160,4 @@ else:
 
 if __name__ == "__main__":
     main()
+
