@@ -1,38 +1,42 @@
-import socket, nmap, json, logging, sys
+import socket, nmap, json, sys
 from scapy.all import IP, ICMP, sr1
+from datetime import datetime
 
-logging.basicConfig(
-    filename = "registro.log",
-    level = logging.INFO,
-    format = "%(asctime)s - %(levelname)s - %(message)s"
-)
+def log_json(evento, nivel="INFO"):
+    entrada = {
+        "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "event": evento,
+        "level": nivel
+    }
+    with open("registro.jsonl", "a", encoding="utf-8") as file:
+        file.write(json.dumps(entrada, ensure_ascii=False) + "\n")
 
 def enviar_pkt (host):
     try:
         print(f"Comprobando conexión con: {host}\n")
-        logging.info(f"Inicia la comprobación de conexión con la ip: {host}")
+        log_json(f"Inicia la comprobación de conexión con la ip: {host}")
         paquete = IP(dst=host) / ICMP()
         respuesta = sr1(paquete, timeout=2, verbose=0)
         if respuesta:
             print(f"El host {host} está activo.")
-            logging.info(f"Se confirma que la ip: {host} está activa")
+            log_json(f"Se confirma que la ip: {host} está activa")
         else:
             print(f"El host {host} no está activo")
-            logging.info(f"Se confirma que la ip: {host} está inactiva")
-        logging.info(f"Termina la comprobación de conexión con la ip: {host}")
+            log_json(f"Se confirma que la ip: {host} está inactiva")
+        log_json(f"Termina la comprobación de conexión con la ip: {host}")
         print("---------------------------------\n")        
     except Exception as e:
         print("La ip no es válida, intentalo de nuevo")
         print(f"Error: {e}")
-        logging.error(f"Ip no válida. Código de error: {e}")
-        logging.info("Se termina la ejecución del programa")
+        log_json(f"Ip no válida. Código de error: {e}", nivel="ERROR")
+        log_json("Se termina la ejecución del programa")
         exit()
     
         
 def comprobar_puertos(puertos, ip):#host):
     #ip = socket.gethostbyname(host)
     print(f"Iniciando escaneo de puertos en: {ip}\n")#- {host}\n")
-    logging.info(f"Iniciando escaneo de puertos en: {ip}")
+    log_json(f"Iniciando escaneo de puertos en: {ip}")
     try:
         socket.setdefaulttimeout(1)
         puertos_abiertos=""
@@ -41,28 +45,27 @@ def comprobar_puertos(puertos, ip):#host):
             conexion = enchufe.connect_ex((ip, puerto))
             if conexion == 0:
                 puertos_abiertos+=f"{puerto},"
-
                 a = f"El puerto: {puerto} ({valor}) está ABIERTO"
-                logging.info(a)
+                log_json(a)
                 print(a)
             else:
                 a = f"El puerto: {puerto} ({valor}) está CERRADO"
-                logging.info(a)
+                log_json(a)
                 print(a)
             with open ("puertos_abiertos.txt", "a", encoding = "UTF-8") as file:
                 file.write(a + "\n")
             enchufe.close()
-            logging.info(f"Se termina la conexión con el puerto: {puerto} - {valor}")
-        logging.info(f"Se genera el reporte con nombre: puertos_abiertos.txt")
-        logging.info(f"Termina la comprobación de puertos abiertos de la ip: {ip}")
+            log_json(f"Se termina la conexión con el puerto: {puerto} - {valor}")
+        log_json(f"Se genera el reporte con nombre: puertos_abiertos.txt")
+        log_json(f"Termina la comprobación de puertos abiertos de la ip: {ip}")
         if puertos_abiertos == "":
-            logging.info(f"Ningun puerto está abierto en la ip: {ip}")
+            log_json(f"Ningun puerto está abierto en la ip: {ip}")
         print("--------------------------------------")
         return puertos_abiertos
     except Exception as e:
         print(f"No se puede generar la conexión. Código de error: {e}")
-        logging.error(f"No se puede generar la conexión. Código de error: {e}")
-        logging.info("Se termina la ejecución del programa")
+        log_json(f"No se puede generar la conexión. Código de error: {e}", nivel="ERROR")
+        log_json("Se termina la ejecución del programa")
         exit()
 
 def fingerP(host, pa):
@@ -71,17 +74,23 @@ def fingerP(host, pa):
             pa_completo = pa.rstrip(",")
             escaner = nmap.PortScanner()
             print("Iniciando escaneo...")
-            logging.info(f"Inicia el escaneo con nmap para la ip: {host}")
+            log_json(f"Inicia el escaneo con nmap para la ip: {host}")
             a = escaner.scan(hosts=host, ports=pa_completo, arguments="-sV")
             print(f"Escaneo completo para los puertos: {pa_completo}\n")
             with open ("S_V_de_puertos_activos.json", "w") as file:
                 json.dump(a, file, indent=4)
-            logging.info(f"Se genera el reporte con nombre: S_V_de_puertos_activos.json")
-            logging.info(f"Fin del escaneo con nmap para la ip: {host}")
+            log_json(f"Se genera el reporte con nombre: S_V_de_puertos_activos.json")
+            log_json(f"Fin del escaneo con nmap para la ip: {host}")
         else:
-            print("No hay puertos abiertos para hacer el fingerprinting activo en la ip: {host}")
+            print(f"No hay puertos abiertos para hacer el fingerprinting activo en la ip: {host}")
+            log_json(f"No hay puertos abiertos para hacer el fingerprinting activo en la ip: {host}")
+            log_json("Se termina la ejecución del programa")
+            exit()
     except Exception as e:
         print(f"Error inesperado: {e}")
+        log_json(f"Ocurrió un error inesperado: {e}", nivel="ERROR")
+        log_json("Se termina la ejecución del programa")
+        exit()
 
 def validacion(n):
     while ((n < 1) or (n > 3)):
@@ -94,14 +103,14 @@ def comprobacion(n):
     print("* Presione cualquier otra tecla si no lo está\n")
     a = input(">> ")
     if a != "y":
-        logging.info(f"Se restringe el acceso para ejecutar la tarea {n}")
+        log_json(f"Se restringe el acceso para ejecutar la tarea {n}")
         print("Adiós")
-        logging.info("Se termina la ejecución del programa")
+        log_json("Se termina la ejecución del programa")
         exit()
 
 def main():
-    logging.info("INICIA UNA NUEVA CONSULTA.")
-    logging.info("Se crea un menú interactivo.")
+    log_json("INICIA UNA NUEVA CONSULTA.")
+    log_json("Se crea un menú interactivo.")
     while True:
         print("----------- Menú de la tarea activa -----------")
         print("1) Verificación de que el host esté activo")
@@ -109,22 +118,23 @@ def main():
         print("3) Salir")
         opcion = int(input("Ingrese una opción: "))
         opcion = validacion(opcion)
+        log_json(f"El usuario seleccionó la opción: {opcion}")
         if opcion == 1:
             n = 1
             comprobacion(n)
-            logging.info(f"Se confirma la ejecución de la tarea {n}")
+            log_json(f"Se confirma la ejecución de la tarea {n}")
             enviar_pkt(ip)#host)
             print("Verificación realizada.\n")
         elif opcion == 2:
             n = 2
             comprobacion(n)
-            logging.info(f"Se confirma la ejecución de la tarea {n}")
+            log_json(f"Se confirma la ejecución de la tarea {n}")
             pa = comprobar_puertos(puertos, ip)#host)
             fingerP(ip, pa)
             print("Reporte generado.\n")
         else:
             print("Cerrando el programa...")
-            logging.info("Se termina la ejecución del programa")
+            log_json("Se termina la ejecución del programa")
             exit() 
 
 #Información
@@ -143,14 +153,10 @@ puertos = {
 
 if len(sys.argv) > 1:
     ip = sys.argv[1]
-    logging.info(f"Se trabajará en base a la ip que proporciona el usuario: {ip}")
+    log_json(f"Se trabajará en base a la ip que proporciona el usuario: {ip}")
 else:
-    ip = "192.168.35.133"
-    logging.info(f"Se trabajará en base a la ip predeterminada: {ip}")
+    ip = "192.168.159.128"
+    log_json(f"Se trabajará en base a la ip predeterminada: {ip}")
 
 if __name__ == "__main__":
     main()
-    
-
-
-
