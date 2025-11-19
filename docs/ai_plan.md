@@ -29,8 +29,7 @@ El sistema guarda el resultado en un archivo TXT y genera logs.
 📌 La integración IA ocurre exactamente en el punto en que los datos del escaneo deben transformarse en inteligencia de seguridad.
 
 3. Tipo de modelo / API a utilizar
-    El proyecto utiliza el SDK oficial de OpenAI, con la siguiente configuración:
-    Modelo seleccionado: "gpt-4o-mini"
+    El proyecto utiliza el SDK oficial de OpenAI, con la siguiente configuración: Modelo seleccionado: "gpt-4o-mini"
     Motivos de selección
       - Es económico (ideal para múltiples ejecuciones).
       - Es rápido, optimizando el tiempo de análisis.
