@@ -38,9 +38,9 @@ Motivos de selección
 
 Tipo de llamada
 Chat Completion (estilo conversacional), enviando:
-      - Un contexto del sistema
-      - Un prompt del usuario
-      - El JSON del análisis
+   - Un contexto del sistema
+   - Un prompt del usuario
+   - El JSON del análisis
 
 4. Ejemplo de prompt inicial
     Este es el prompt real o un ejemplo fiel al que genera el script:
