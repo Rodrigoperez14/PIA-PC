@@ -1,0 +1,7 @@
+{"timestamp": "2025-11-19T05:15:54.111785+00:00", "event": "Inicio del proceso del script", "status": "OK", "details": null}
+{"timestamp": "2025-11-19T05:15:54.116851+00:00", "event": "Cargando archivo JSON", "status": "OK", "details": {"archivo": "S_V_de_puertos_activos.json"}}
+{"timestamp": "2025-11-19T05:15:54.118284+00:00", "event": "Archivo JSON cargado correctamente", "status": "OK", "details": null}
+{"timestamp": "2025-11-19T05:15:54.118799+00:00", "event": "Enviando datos a OpenAI", "status": "OK", "details": {"puertos_detectados": 0}}
+{"timestamp": "2025-11-19T05:16:08.022616+00:00", "event": "Respuesta recibida de OpenAI", "status": "OK", "details": null}
+{"timestamp": "2025-11-19T05:16:08.023808+00:00", "event": "Reporte guardado", "status": "OK", "details": {"archivo": "reporte_seguridad.txt"}}
+{"timestamp": "2025-11-19T05:16:08.024299+00:00", "event": "Proceso completado", "status": "OK", "details": null}
