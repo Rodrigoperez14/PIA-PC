@@ -45,21 +45,21 @@ Motivos de selección
 4. Ejemplo de prompt inicial
     Este es el prompt real o un ejemplo fiel al que genera el script:
 
-Eres un analista experto en ciberseguridad.
+      Eres un analista experto en ciberseguridad.
 
-A continuación te paso un JSON resultado de un escaneo de puertos
-con sus servicios y versiones. Necesito que generes:
+      A continuación te paso un JSON resultado de un escaneo de puertos
+      con sus servicios y versiones. Necesito que generes:
 
-- Riesgos asociados a cada servicio
-- Vulnerabilidades comunes
-- Recomendaciones de mitigación
-- Criticidad por puerto (bajo, medio, alto, crítico)
-- Detección de versiones inseguras o desactualizadas
+      - Riesgos asociados a cada servicio
+      - Vulnerabilidades comunes
+      - Recomendaciones de mitigación
+      - Criticidad por puerto (bajo, medio, alto, crítico)
+      - Detección de versiones inseguras o desactualizadas
 
-JSON recibido:
-{
-    ... contenido del escaneo ...
-}
+      JSON recibido:
+      {
+          ... contenido del escaneo ...
+      }
 
 
-El modelo recibe este prompt y produce un análisis de ciberseguridad completo basado en las versiones detectadas.
+      El modelo recibe este prompt y produce un análisis de ciberseguridad completo basado en las versiones detectadas.
