@@ -1,17 +1,17 @@
 🧠 PLAN DE IA DOCUMENTADO DEL PROYECTO
-1. Propósito del uso de IA en el proyecto
+1. Propósito del uso de IA en el proyecto:
    El uso de inteligencia artificial en este proyecto tiene como propósito           automatizar el análisis de seguridad de servicios y puertos detectados en un      escaneo de red. La IA permite transformar información técnica proveniente de      un archivo JSON (obtenido desde Nmap) en un reporte comprensible, estructurado
    y útil, identificando riesgos, vulnerabilidades, versiones inseguras
    recomendaciones específicas de mitigación.
 
    La IA reemplaza la necesidad de realizar:
-        -  Interpretación manual de servicios y versiones detectadas
-        -  Búsqueda individual de vulnerabilidades
+        - Interpretación manual de servicios y versiones detectadas
+        - Búsqueda individual de vulnerabilidades
         - Clasificación de criticidad
         - Generación de reportes
     Esto reduce tiempo, mejora la precisión y estandariza los análisis.
 
-2. Punto del flujo donde se integrará
+3. Punto del flujo donde se integrará
 La IA se integra después de la etapa de adquisición del escaneo de puertos.
 El flujo general es:
     - El usuario ejecuta un escaneo de puertos con Nmap.
