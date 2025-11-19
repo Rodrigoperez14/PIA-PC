@@ -36,11 +36,11 @@ Motivos de selección
       - Tiene buena capacidad para interpretar datos estructurados.
       - Es eficiente en tareas de clasificación, análisis y redacción técnica.
 
-Tipo de llamada
-Chat Completion (estilo conversacional), enviando:
-   - Un contexto del sistema
-   - Un prompt del usuario
-   - El JSON del análisis
+   Tipo de llamada
+   Chat Completion (estilo conversacional), enviando:
+      - Un contexto del sistema
+      - Un prompt del usuario
+      - El JSON del análisis
 
 4. Ejemplo de prompt inicial
     Este es el prompt real o un ejemplo fiel al que genera el script:
