@@ -5,10 +5,10 @@
    recomendaciones específicas de mitigación.
 
    La IA reemplaza la necesidad de realizar:
-        - Interpretación manual de servicios y versiones detectadas
-        - Búsqueda individual de vulnerabilidades
-        - Clasificación de criticidad
-        - Generación de reportes
+      - Interpretación manual de servicios y versiones detectadas
+      - Búsqueda individual de vulnerabilidades
+      - Clasificación de criticidad
+      - Generación de reportes
     Esto reduce tiempo, mejora la precisión y estandariza los análisis.
 
 3. Punto del flujo donde se integrará
