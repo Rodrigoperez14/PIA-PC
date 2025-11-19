@@ -30,13 +30,12 @@ El sistema guarda el resultado en un archivo TXT y genera logs.
 
 3. Tipo de modelo / API a utilizar
     El proyecto utiliza el SDK oficial de OpenAI, con la siguiente configuración:
-    Modelo seleccionado
-        gpt-4o-mini
+    Modelo seleccionado: "gpt-4o-mini"
     Motivos de selección
-        - Es económico (ideal para múltiples ejecuciones).
-        - Es rápido, optimizando el tiempo de análisis.
-        - Tiene buena capacidad para interpretar datos estructurados.
-        - Es eficiente en tareas de clasificación, análisis y redacción técnica.
+      - Es económico (ideal para múltiples ejecuciones).
+      - Es rápido, optimizando el tiempo de análisis.
+      - Tiene buena capacidad para interpretar datos estructurados.
+      - Es eficiente en tareas de clasificación, análisis y redacción técnica.
 
 Tipo de llamada
 Chat Completion (estilo conversacional), enviando:
