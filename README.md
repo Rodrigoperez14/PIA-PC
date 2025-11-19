@@ -13,7 +13,7 @@ El equipo se compromete a documentar cualquier riesgo ético y aplicar medidas d
 
 ## 🚀 Progreso del Proyecto
 * [x] **Tarea 1: ScanPort (Completada)**
-* [x] **Tarea 2: Análisis de Vulnerabilidades (Completada)**
+* [x] **Tarea 2: ObsoleteTechFInder (Completada)**
 * [ ] **Tarea 3: Análisis de ip´s sospechosas (Pendiente)**
 
 ## ✨ Características (Tarea 1)
