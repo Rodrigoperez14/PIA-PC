@@ -1,0 +1,13 @@
+VERSIÓN DEL PROMPT: {version}
+
+TAREA:
+{tarea}
+
+INSTRUCCIONES:
+{instrucciones}
+
+TEMPLATE DE DATOS DE ENTRADA (JSON DEL ESCANEO):
+{template}
+
+JSON RECIBIDO:
+{json_input}
