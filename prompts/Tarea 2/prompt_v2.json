@@ -1,0 +1,31 @@
+VERSIÓN DEL PROMPT: 1.0
+
+TAREA:
+Generar un análisis de ciberseguridad basado en un archivo JSON obtenido de un escaneo Nmap.
+
+INSTRUCCIONES:
+- Analiza cada puerto abierto.
+- Identifica servicio, versión y producto.
+- Evalúa riesgos asociados.
+- Lista vulnerabilidades comunes (por versión).
+- Recomienda mitigaciones específicas.
+- Asigna criticidad (bajo, medio, alto, crítico).
+- Señala versiones obsoletas, EoL o inseguras.
+- Redacta en formato claro y profesional.
+
+TEMPLATE DE DATOS DE ENTRADA:
+{
+  "host": "IP objetivo",
+  "puertos": [
+     {
+       "puerto": número,
+       "servicio": "nombre",
+       "producto": "string",
+       "version": "string",
+       "cpe": "string"
+     }
+  ]
+}
+
+JSON RECIBIDO:
+{json_input}
