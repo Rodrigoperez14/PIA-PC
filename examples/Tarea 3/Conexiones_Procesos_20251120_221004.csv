@@ -1,0 +1,50 @@
+﻿"Firma","Estado","LocalAddress","LocalPort","RemoteAddress","RemotePort","PID","Proceso","Ruta"
+,"Listen","::","49680","::","0","1256","services.exe",
+,"Listen","::1","49669","::","0","4788","jhi_service.exe",
+,"Listen","::","49668","::","0","4108","spoolsv.exe",
+,"Listen","::","49667","::","0","3220","svchost.exe",
+,"Listen","::","49666","::","0","2112","svchost.exe",
+,"Listen","::","49665","::","0","1128","wininit.exe",
+,"Listen","::","49664","::","0","1300","lsass.exe",
+"Valid","Listen","::","17500","::","0","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+,"Listen","::","7680","::","0","13072","svchost.exe",
+,"Listen","::","445","::","0","4","System",
+,"Listen","::","135","::","0","1616","svchost.exe",
+"Valid","Established","192.168.0.149","65239","162.125.21.3","443","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Valid","Established","192.168.0.149","65207","52.123.190.186","443","14544","msedge.exe","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"Valid","Established","192.168.0.149","64419","20.42.65.84","443","14544","msedge.exe","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"Valid","Established","192.168.0.149","62691","34.120.195.249","443","14544","msedge.exe","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"Valid","Established","192.168.0.149","61713","57.144.195.32","443","14544","msedge.exe","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"Valid","Established","192.168.0.149","60949","52.123.250.7","443","13968","ms-teams_modulehost.exe","C:\Program Files\WindowsApps\MSTeams_25306.804.4102.7193_x64__8wekyb3d8bbwe\ms-teams_modulehost.exe"
+"Valid","Established","192.168.0.149","60943","52.112.84.180","443","13968","ms-teams_modulehost.exe","C:\Program Files\WindowsApps\MSTeams_25306.804.4102.7193_x64__8wekyb3d8bbwe\ms-teams_modulehost.exe"
+"Valid","Established","127.0.0.1","60550","127.0.0.1","60549","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Valid","Established","127.0.0.1","60549","127.0.0.1","60550","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Valid","Established","127.0.0.1","60548","127.0.0.1","60547","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Valid","Established","127.0.0.1","60547","127.0.0.1","60548","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Valid","Established","127.0.0.1","60546","127.0.0.1","60545","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Valid","Established","127.0.0.1","60545","127.0.0.1","60546","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Valid","Established","127.0.0.1","60544","127.0.0.1","60543","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Valid","Established","127.0.0.1","60543","127.0.0.1","60544","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Valid","Established","192.168.0.149","60314","52.112.84.177","443","14544","msedge.exe","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"Valid","Established","192.168.0.149","57648","52.112.84.201","443","7200","msedgewebview2.exe","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"Valid","Established","192.168.0.149","51616","162.125.8.19","443","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Valid","Established","192.168.0.149","51326","162.125.21.2","443","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Valid","Established","192.168.0.149","51325","104.18.23.222","443","14544","msedge.exe","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+,"Listen","127.0.0.1","51112","0.0.0.0","0","4428","AdskLicensingService.exe",
+,"Listen","0.0.0.0","49680","0.0.0.0","0","1256","services.exe",
+,"Listen","0.0.0.0","49668","0.0.0.0","0","4108","spoolsv.exe",
+,"Listen","0.0.0.0","49667","0.0.0.0","0","3220","svchost.exe",
+,"Listen","0.0.0.0","49666","0.0.0.0","0","2112","svchost.exe",
+,"Listen","0.0.0.0","49665","0.0.0.0","0","1128","wininit.exe",
+,"Listen","0.0.0.0","49664","0.0.0.0","0","1300","lsass.exe",
+,"Established","192.168.0.149","49408","104.208.203.88","443","5172","svchost.exe",
+"Valid","Listen","127.0.0.1","17600","0.0.0.0","0","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Valid","Listen","0.0.0.0","17500","0.0.0.0","0","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+,"Listen","127.0.0.1","5939","0.0.0.0","0","4036","TeamViewer_Service.exe",
+,"Listen","0.0.0.0","5040","0.0.0.0","0","8652","svchost.exe",
+"Valid","Listen","127.0.0.1","3388","0.0.0.0","0","1272","Code.exe","C:\Users\5Uriel\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+"Valid","Listen","127.0.0.1","843","0.0.0.0","0","14528","Dropbox.exe","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+,"Listen","192.168.56.1","139","0.0.0.0","0","4","System",
+,"Listen","192.168.0.149","139","0.0.0.0","0","4","System",
+,"Listen","172.26.48.1","139","0.0.0.0","0","4","System",
+,"Listen","0.0.0.0","135","0.0.0.0","0","1616","svchost.exe",

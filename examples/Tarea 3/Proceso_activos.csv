@@ -1,0 +1,244 @@
+"Name","Id","Path"
+"AdAppMgrSvc","4436",
+"AdskLicensingService","4428",
+"AggregatorHost","3972",
+"AppActions","8500","C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\AppActions.exe"
+"backgroundTaskHost","7084","C:\WINDOWS\system32\backgroundTaskHost.exe"
+"backgroundTaskHost","9460","C:\WINDOWS\system32\backgroundTaskHost.exe"
+"backgroundTaskHost","13016","C:\WINDOWS\system32\backgroundTaskHost.exe"
+"cmd","18024","C:\WINDOWS\system32\cmd.exe"
+"Code","1272","C:\Users\5Uriel\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+"Code","2056","C:\Users\5Uriel\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+"Code","2472","C:\Users\5Uriel\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+"Code","4448","C:\Users\5Uriel\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+"Code","4560","C:\Users\5Uriel\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+"Code","8820","C:\Users\5Uriel\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+"Code","9560","C:\Users\5Uriel\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+"Code","10904","C:\Users\5Uriel\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+"Code","17744","C:\Users\5Uriel\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+"Code","17824","C:\Users\5Uriel\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+"CodeSetup-stable-1e3c50d64110be466c0b4a45222e81d2c9352888","15044","C:\Users\5Uriel\AppData\Local\Temp\vscode-stable-user-x64\CodeSetup-stable-1e3c50d64110be466c0b4a45222e81d2c9352888.exe"
+"CodeSetup-stable-1e3c50d64110be466c0b4a45222e81d2c9352888.tmp","16160","C:\Users\5Uriel\AppData\Local\Temp\is-I6JH1.tmp\CodeSetup-stable-1e3c50d64110be466c0b4a45222e81d2c9352888.tmp"
+"conhost","2300","C:\WINDOWS\system32\conhost.exe"
+"conhost","9400","C:\WINDOWS\system32\conhost.exe"
+"conhost","11348","C:\WINDOWS\system32\conhost.exe"
+"conhost","11820","C:\WINDOWS\system32\conhost.exe"
+"conhost","13748",
+"conhost","16628","C:\WINDOWS\system32\conhost.exe"
+"crashpad_handler","7292",
+"CrossDeviceResume","4748","C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\CrossDeviceResume.exe"
+"CrossDeviceService","14636","C:\Program Files\WindowsApps\MicrosoftWindows.CrossDevice_1.25101.31.0_x64__cw5n1h2txyewy\CrossDeviceService.exe"
+"csrss","836",
+"csrss","1136",
+"ctfmon","13300",
+"DataExchangeHost","3012","C:\Windows\System32\DataExchangeHost.exe"
+"DbxSvc","4456",
+"dllhost","5856","C:\WINDOWS\system32\DllHost.exe"
+"dllhost","8332","C:\WINDOWS\system32\DllHost.exe"
+"dllhost","10864","C:\WINDOWS\system32\DllHost.exe"
+"dllhost","15608","C:\WINDOWS\system32\DllHost.exe"
+"dllhost","16748","C:\WINDOWS\system32\DllHost.exe"
+"Dropbox","10112","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Dropbox","14528","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Dropbox","14792","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Dropbox","16548","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Dropbox","16584","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Dropbox","17008","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"Dropbox","17348","C:\Program Files (x86)\Dropbox\Client\Dropbox.exe"
+"dwm","1716",
+"esif_uf","4716",
+"explorer","10092","C:\WINDOWS\Explorer.EXE"
+"FnHotkeyCapsLKNumLK","6796",
+"FnHotkeyUtility","10220","C:\Windows\System32\DriverStore\FileRepository\lenovofnandfunctionkeys.inf_amd64_e40ba436be734fd2\FnHotkeyUtility.exe"
+"FNPLicensingService","4632",
+"fontdrvhost","1456",
+"fontdrvhost","1460",
+"Idle","0",
+"igfxCUIServiceN","3576",
+"igfxEMN","8168","C:\WINDOWS\System32\DriverStore\FileRepository\cui_dch.inf_amd64_6673c5322430fc8a\igfxEMN.exe"
+"IntelAudioService","4724",
+"IntelCpHDCPSvc","2332",
+"jhi_service","4788",
+"LenovoUtilityService","4884",
+"LsaIso","1288",
+"lsass","1300",
+"Memory Compression","3452",
+"MpDefenderCoreService","5068",
+"msedge","2008","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","3716","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","5420","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","8204","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","11360","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","11628","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","12996","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","13552","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","14544","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","14992","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","15304","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","15460","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","16432","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedge","17844","C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+"msedgewebview2","2788","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","4772","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","5108","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","6308","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","7200","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","7312","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","7656","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","9076","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","10860","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","11304","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","12236","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","12380","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","12456","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","12520","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","12616","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","13636","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","15076","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","15172","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"msedgewebview2","18292","C:\Program Files (x86)\Microsoft\EdgeWebView\Application\142.0.3595.90\msedgewebview2.exe"
+"MsMpEng","4248",
+"ms-teams","2976","C:\Program Files\WindowsApps\MSTeams_25306.804.4102.7193_x64__8wekyb3d8bbwe\ms-teams.exe"
+"ms-teams_modulehost","13968","C:\Program Files\WindowsApps\MSTeams_25306.804.4102.7193_x64__8wekyb3d8bbwe\ms-teams_modulehost.exe"
+"NahimicService","4872",
+"NhNotifSys","13392","C:\WINDOWS\system32\NhNotifSys.exe"
+"NisSrv","7372",
+"Notepad","4140","C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2508.38.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe"
+"Notepad","4344","C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2508.38.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe"
+"Notepad","14416","C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2508.38.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe"
+"NVDisplay.Container","3092",
+"NVDisplay.Container","6112",
+"OfficeClickToRun","4468",
+"OneApp.IGCC.WinService","4680",
+"OpenConsole","13036","C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.23.12811.0_x64__8wekyb3d8bbwe\OpenConsole.exe"
+"OpenWith","4756","C:\WINDOWS\system32\OpenWith.exe"
+"OpenWith","7244","C:\WINDOWS\system32\OpenWith.exe"
+"pet","17096","c:\Users\5Uriel\.vscode\extensions\ms-python.vscode-python-envs-1.12.0-win32-x64\python-env-tools\bin\pet.exe"
+"PhoneExperienceHost","10708","C:\Program Files\WindowsApps\Microsoft.YourPhone_1.25101.25.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe"
+"powershell","4592","C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe"
+"powershell","9576","C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe"
+"powershell","15840","C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe"
+"powershell","16184","C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe"
+"powershell_ise","15184",
+"PresentationFontCache","7708",
+"python","14576","C:\Users\5Uriel\AppData\Local\Programs\Python\Python313\python.exe"
+"Registry","184",
+"RtkAudUService64","4904",
+"RuntimeBroker","1276","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","2024","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","9648","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","10820","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","14852","C:\Windows\System32\RuntimeBroker.exe"
+"SearchFilterHost","5800",
+"SearchHost","10720","C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe"
+"SearchIndexer","10480",
+"SearchProtocolHost","15344",
+"Secure System","140",
+"services","1256",
+"ShellHost","10128","C:\Windows\System32\ShellHost.exe"
+"sihost","7588","C:\WINDOWS\system32\sihost.exe"
+"smss","656",
+"spoolsv","4108",
+"StartMenuExperienceHost","10716","C:\WINDOWS\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe"
+"svchost","828",
+"svchost","832",
+"svchost","1440",
+"svchost","1616",
+"svchost","1660",
+"svchost","1888",
+"svchost","1900",
+"svchost","1936",
+"svchost","1944",
+"svchost","1972",
+"svchost","2028",
+"svchost","2092",
+"svchost","2100",
+"svchost","2112",
+"svchost","2140",
+"svchost","2172",
+"svchost","2200",
+"svchost","2264",
+"svchost","2360",
+"svchost","2448",
+"svchost","2528",
+"svchost","2700",
+"svchost","2960",
+"svchost","3032",
+"svchost","3088",
+"svchost","3124",
+"svchost","3132",
+"svchost","3220",
+"svchost","3272",
+"svchost","3324",
+"svchost","3340",
+"svchost","3348",
+"svchost","3512",
+"svchost","3532",
+"svchost","3644",
+"svchost","3660",
+"svchost","3760",
+"svchost","3788",
+"svchost","3800",
+"svchost","3908",
+"svchost","3928",
+"svchost","3992",
+"svchost","4024",
+"svchost","4148",
+"svchost","4216",
+"svchost","4236",
+"svchost","4368",
+"svchost","4464",
+"svchost","4488",
+"svchost","4504",
+"svchost","4524",
+"svchost","4712","C:\WINDOWS\system32\svchost.exe"
+"svchost","4764",
+"svchost","4936",
+"svchost","5172",
+"svchost","5296",
+"svchost","6180",
+"svchost","6996",
+"svchost","7632","C:\WINDOWS\system32\svchost.exe"
+"svchost","7640","C:\WINDOWS\system32\svchost.exe"
+"svchost","7752","C:\WINDOWS\system32\svchost.exe"
+"svchost","7792",
+"svchost","7904","C:\WINDOWS\system32\svchost.exe"
+"svchost","7956",
+"svchost","8140",
+"svchost","8652",
+"svchost","9364","C:\WINDOWS\system32\svchost.exe"
+"svchost","9584",
+"svchost","9704",
+"svchost","10532",
+"svchost","10564",
+"svchost","10624","C:\WINDOWS\System32\svchost.exe"
+"svchost","11144","C:\WINDOWS\system32\svchost.exe"
+"svchost","11644",
+"svchost","12608",
+"svchost","13072",
+"svchost","13984",
+"svchost","14652",
+"svchost","15164",
+"svchost","15988",
+"svchost","16260",
+"SynTPEnh","6384","C:\Program Files\Synaptics\SynTP\SynTPEnh.exe"
+"SynTPEnhService","5132",
+"System","4",
+"taskhostw","8004","C:\WINDOWS\system32\taskhostw.exe"
+"TeamViewer_Service","4036",
+"TextInputHost","12832","C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe"
+"unsecapp","8456",
+"unsecapp","9992","C:\WINDOWS\system32\wbem\unsecapp.exe"
+"vmcompute","12036",
+"Widgets","2648","C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_525.31002.150.0_x64__cw5n1h2txyewy\Dashboard\Widgets.exe"
+"WidgetService","1692","C:\Program Files\WindowsApps\Microsoft.WidgetsPlatformRuntime_1.6.14.0_x64__8wekyb3d8bbwe\WidgetService\WidgetService.exe"
+"WindowsTerminal","9800","C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.23.12811.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe"
+"wininit","1128",
+"winlogon","1224",
+"wlanext","9824",
+"WmiPrvSE","6584",
+"WmiPrvSE","9916",
+"WMIRegistrationService","3976",
+"wslservice","5304",
+"WUDFHost","1548",
+"WUDFHost","1780",

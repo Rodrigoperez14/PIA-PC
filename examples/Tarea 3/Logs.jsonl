@@ -1,0 +1,10 @@
+﻿{"timestamp":"2025-11-20T21:56:12","task":"Conexion-Internet","status":"OK","output":"C:\\Users\\5Uriel/Desktop/Conexiones_Procesos_20251120_215608.csv","ips_found":8}
+{"timestamp":"2025-11-20T21:57:47","task":"Conexion-Internet","status":"OK","output":"C:\\Users\\5Uriel/Desktop/Conexiones_Procesos_20251120_215739.csv","ips_found":26}
+{"timestamp":"2025-11-20T21:57:55","task":"Conexion-Internet","status":"OK","output":"C:\\Users\\5Uriel/Desktop/Conexiones_Procesos_20251120_215747.csv","ips_found":26}
+{"timestamp":"2025-11-20T21:57:58","task":"AbuseIPDB","status":"OK","output":"C:\\Users\\5Uriel/Desktop/Reporte_IPs.csv","ips_checked":0}
+{"timestamp":"2025-11-20T22:02:08","task":"Conexion-Internet","status":"OK","output":"C:\\Users\\5Uriel/Desktop/Conexiones_Procesos_20251120_220205.csv","ips_found":13}
+{"timestamp":"2025-11-20T22:02:12","task":"Conexion-Internet","status":"OK","output":"C:\\Users\\5Uriel/Desktop/Conexiones_Procesos_20251120_220208.csv","ips_found":13}
+{"timestamp":"2025-11-20T22:02:13","task":"AbuseIPDB","status":"OK","output":"C:\\Users\\5Uriel/Desktop/Reporte_IPs.csv","ips_checked":13}
+{"timestamp":"2025-11-20T22:10:03","task":"Conexion-Internet","status":"OK","output":"C:\\Users\\5Uriel/Desktop/Conexiones_Procesos_20251120_221000.csv","ips_found":13}
+{"timestamp":"2025-11-20T22:10:07","task":"Conexion-Internet","status":"OK","output":"C:\\Users\\5Uriel/Desktop/Conexiones_Procesos_20251120_221004.csv","ips_found":13}
+{"timestamp":"2025-11-20T22:10:08","task":"AbuseIPDB","status":"OK","output":"C:\\Users\\5Uriel/Desktop/Reporte_IPs_20251120_221007.csv","ips_checked":13}

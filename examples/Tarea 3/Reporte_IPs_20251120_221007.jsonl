@@ -1,0 +1,13 @@
+﻿{"timestamp":"2025-11-20T22:10:07","IP":"104.18.23.222","Pais":"United States of America","TipoUso":"Content Delivery Network","Reportes":0,"Clasificacion":"Lista Blanca","ConfidenceScore":0}
+{"timestamp":"2025-11-20T22:10:07","IP":"104.208.203.88","Pais":"United States of America","TipoUso":"Data Center/Web Hosting/Transit","Reportes":0,"Clasificacion":"Lista Negra","ConfidenceScore":0}
+{"timestamp":"2025-11-20T22:10:07","IP":"162.125.21.2","Pais":"United States of America","TipoUso":"Commercial","Reportes":2,"Clasificacion":"Lista Negra","ConfidenceScore":0}
+{"timestamp":"2025-11-20T22:10:07","IP":"162.125.21.3","Pais":"United States of America","TipoUso":"Commercial","Reportes":0,"Clasificacion":"Lista Negra","ConfidenceScore":0}
+{"timestamp":"2025-11-20T22:10:07","IP":"162.125.8.19","Pais":"United States of America","TipoUso":"Commercial","Reportes":0,"Clasificacion":"Lista Negra","ConfidenceScore":0}
+{"timestamp":"2025-11-20T22:10:07","IP":"20.42.65.84","Pais":"United States of America","TipoUso":"Data Center/Web Hosting/Transit","Reportes":11,"Clasificacion":"Lista Negra","ConfidenceScore":10}
+{"timestamp":"2025-11-20T22:10:08","IP":"34.120.195.249","Pais":"United States of America","TipoUso":"Content Delivery Network","Reportes":45,"Clasificacion":"Lista Negra","ConfidenceScore":29}
+{"timestamp":"2025-11-20T22:10:08","IP":"52.112.84.177","Pais":"United States of America","TipoUso":"Data Center/Web Hosting/Transit","Reportes":0,"Clasificacion":"Lista Negra","ConfidenceScore":0}
+{"timestamp":"2025-11-20T22:10:08","IP":"52.112.84.180","Pais":"United States of America","TipoUso":"Data Center/Web Hosting/Transit","Reportes":0,"Clasificacion":"Lista Negra","ConfidenceScore":0}
+{"timestamp":"2025-11-20T22:10:08","IP":"52.112.84.201","Pais":"United States of America","TipoUso":"Data Center/Web Hosting/Transit","Reportes":0,"Clasificacion":"Lista Negra","ConfidenceScore":0}
+{"timestamp":"2025-11-20T22:10:08","IP":"52.123.190.186","Pais":"United States of America","TipoUso":"Data Center/Web Hosting/Transit","Reportes":0,"Clasificacion":"Lista Negra","ConfidenceScore":0}
+{"timestamp":"2025-11-20T22:10:08","IP":"52.123.250.7","Pais":"United States of America","TipoUso":"Data Center/Web Hosting/Transit","Reportes":0,"Clasificacion":"Lista Negra","ConfidenceScore":0}
+{"timestamp":"2025-11-20T22:10:08","IP":"57.144.195.32","Pais":"United States of America","TipoUso":"Commercial","Reportes":0,"Clasificacion":"Lista Negra","ConfidenceScore":0}
