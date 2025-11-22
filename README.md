@@ -14,7 +14,7 @@ El equipo se compromete a documentar cualquier riesgo ético y aplicar medidas d
 ## 🚀 Progreso del Proyecto
 * [x] **Tarea 1: ScanPort (Completada)**
 * [x] **Tarea 2: ObsoleteTechFInder (Completada)**
-* [ ] **Tarea 3: Análisis de ip´s sospechosas (Pendiente)**
+* [x] **Tarea 3: Análisis de ip´s sospechosas (Pendiente)**
 
 ## ✨ Características (Tarea 1)
 * Descubrimiento de Host (Ping ICMP).
@@ -105,16 +105,70 @@ en el mismo directorio que tu script.
     - recepción del análisis
     - errores (si los hubiera)
     - cierre del proceso
+      
+## ✨ Características (Tarea 3 – Scripts Forenses)
+
+- **Procesos_Activos**  
+  - Obtiene procesos en ejecución.  
+  - Exporta resultados a un archivo `.csv` con nombre único (fecha/hora).  
+  - Registra la acción en un log estructurado `.jsonl`.
+
+- **Conexion_Internet**  
+  - Analiza conexiones TCP activas y procesos asociados.  
+  - Verifica firmas digitales de ejecutables.  
+  - Exporta resultados a un archivo `.csv` con nombre único.  
+  - Retorna lista de IPs válidas para análisis posterior.  
+  - Registra la acción en el log `.jsonl`.
+
+- **AbuseIPDB**  
+  - Consulta la API de AbuseIPDB para verificar reputación de IPs detectadas.  
+  - Exporta resultados a `.csv` y `.jsonl`.  
+  - Clasifica IPs en lista blanca/negra y asigna nivel de confianza.  
+  - Registra la acción en el log centralizado.
+
+- **Menú en Python (`Menu_tarea3.py`)**  
+  - Interfaz interactiva para ejecutar las funciones desde CMD.  
+  - Opciones:  
+    - `1` → Procesos activos  
+    - `2` → Conexiones a Internet + AbuseIPDB  
+    - `3` → Salir  
+---
+
+## 🔧 Instalación y Entorno
+
+1. **Dependencias de Sistema**
+   - PowerShell 5+ o PowerShell Core (pwsh).
+   - Acceso a internet para consultas a la API de AbuseIPDB.
+
+2. **Dependencias de Python**
+   - Python 3.x (probado en 3.10+).
+   - No requiere librerías externas, solo el módulo estándar `subprocess`.
+
+3. **Clave API**
+   - Se requiere una clave válida de **AbuseIPDB**.  
+   - Definirla en el script PowerShell:
+     ```powershell
+     $apiKey = "TU_API_KEY_AQUI"
+     ```
+
+---
 
 ## 📁 Archivos generados
 Archivo	Descripción
-reporte_seguridad.txt	Informe de seguridad generado por IA
-proceso.log.jsonl	Registros en formato estructurado JSONL
-S_V_de_puertos_activos.json	Entrada del escaneo (proveniente de Nmap)
+reporte_seguridad.txt	             Informe de seguridad generado por IA
+proceso.log.jsonl	                 Registros en formato estructurado JSONL
+S_V_de_puertos_activos.json	         Entrada del escaneo (proveniente de Nmap)
+Reporte_IPs_YYYYMMDD_HHMMSS.jsonl    Registros detallados de cada IP analizada
+Logs.jsonl                           Log centralizado de todas las ejecuciones
+Procesos_activos_YYYYMMDD_HHMMSS.csv	    Procesos activos exportados
+Conexiones_Procesos_YYYYMMDD_HHMMSS.csv	    Conexiones TCP y procesos asociados
+
 
 ## 🎯 Requisitos de funcionamiento
-El script requiere:
+Los scripts requieren:
     Python 3.6+
-    Conexión a Internet para consumir la API
+    PowerShell 5+
+    Conexión a Internet para consumir las API
     Una API key activa de OpenAI
-    Archivo JSON generado
+    Una API key activa de AbuseIPDB
+    Archivo S_V_de_puertos_activos.json
