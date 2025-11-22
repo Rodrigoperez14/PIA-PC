@@ -14,7 +14,7 @@ El equipo se compromete a documentar cualquier riesgo ético y aplicar medidas d
 ## 🚀 Progreso del Proyecto
 * [x] **Tarea 1: ScanPort (Completada)**
 * [x] **Tarea 2: ObsoleteTechFInder (Completada)**
-* [x] **Tarea 3: Análisis de ip´s sospechosas (Pendiente)**
+* [x] **Tarea 3: Análisis de ip´s sospechosas (Completada)**
 
 ## ✨ Características (Tarea 1)
 * Descubrimiento de Host (Ping ICMP).
