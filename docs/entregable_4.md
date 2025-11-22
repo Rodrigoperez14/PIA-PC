@@ -3,6 +3,41 @@
 > Este entregable forma parte del repositorio único del proyecto PIA. La propuesta técnica se encuentra en [`/proposals/propuesta.md`](../proposals/propuesta.md).
 
 ---
+## 🧩 Descripción de la Tarea 3
+- **Elaboración de la Tarea 3**
+  >Para la tarea 3 del PIA hicimos un escaneo de procesos activos de nuestro equipo de computo, además de las conexiones de los servicios que tiene en el momento en que ejecutamos el script, ese mismo script arroja una lista de IP's y para analizar su origen e identificar posibles riesgos y si alguna de ellas es maliciosa, consultamos con el api AbuseIPDB, exportando algunos de sus campos y agregandolos a un reporte .jsonl que nos ayudara adeterminar si es que alguna IP corresponde con un origen malicioso.
+
+---
+## 🔗 Flujo técnico consolidado
+
+> Descripción del flujo completo entre tareas:  
+- 1.- El usuario ejecuta un escaneo de puertos con Nmap. 
+- 2.- Nmap genera un archivo JSON con información técnica. 
+- 3.- El script carga el JSON → cargar_json(). 
+- 4.- La IA entra aquí: el JSON se envía al modelo GPT vía API → generar_recomendaciones(). 
+- 5.- El modelo procesa el contenido y devuelve: Analisís de riesgos, Vulnerabilidades, Citricidades, Recomendaciones
+- 6.- Mediante el Menu de Python se ejecutan las opciones 1) extraen los Procesos Activos del dispositivo
+- 7.- Con la opción 2) se extraen los servicios conectados a internet y sus IPs
+- 8.- Consultamos a la API AbuseIPDB sobre la reputación de cada ip
+- 9.- Al analizar el reporte de ips en fortamo .jsonl podemos saber los reportes de cada ip, páis de origen y si es que estan en una lista blanca de IPs que NO presentan una amenaza.
+
+> ¿Qué módulos están conectados? ¿Cómo fluye la información entre ellos? ¿Qué salidas se generan?
+- Las conexiones entre la tarea 1 y 3 es el jsonl que arroja la ejecución de nmap, para su posterior analisis con la consulta a la I.A mediante un API.
+- Los modulos que estan conectados son la función de Conexion-Internet y la función de AbuseIPDB en la tarea 3, ya que el objetivo de la tarea 3 corresponde a ambas y para su coherencia es necesario que una se ejecute si la otra lo hace.
+
+---
+
+## 🧠 IA integrada funcionalmente
+
+- **Modelo/API utilizado**: [gpt-4o-mini]
+- **Punto de integración**:  
+  - La IA se integra después de la etapa de adquisición del escaneo de puertos. 
+- **Ejemplo de entrada/salida**:  
+  - El script [Tarea_1.py](../src/Tarea_1/Tarea_1.py) ejecuta Nmap y este arroja un jsonl para analizar con Chatgpt. 
+  - La tarea 2 con el script [Tarea_2_PIA.py](../src/Tarea2/Tarea_2_PIA.py) consulta a la api de chatgpt y analiza el .json
+  - La consulta a la api genera un .txt [Reporte_Seguridad](../examples/Tarea_2/reporte_seguridad.txt) con diversa recomendaciones y comentarios sobre que podemos hacer con lo arrojado por Nmap
+
+---
 
 ## 📁 Evidencia reproducible
 
