@@ -88,11 +88,13 @@ def guardar_en_txt(contenido, archivo="reporte_seguridad.txt"):
         log_event("Error guardando reporte TXT", status="ERROR", details=str(e))
         raise
 def menu():
+    print("Inicio del proceso del script")
     log_event("Inicio del proceso del script")
     archivo_json = "S_V_de_puertos_activos.json"
     datos = cargar_json(archivo_json)
     resultado = generar_recomendaciones(datos)
     guardar_en_txt(resultado)
+    print("Proceso completado")
     log_event("Proceso completado")
     
 
@@ -100,4 +102,5 @@ def menu():
 if __name__ == "__main__":
     menu()
     
+
 
