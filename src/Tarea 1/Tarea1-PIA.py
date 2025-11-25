@@ -112,7 +112,7 @@ def menu():
     log_json("INICIA UNA NUEVA CONSULTA.")
     log_json("Se crea un menú interactivo.")
     while True:
-        print("----------- Menú de la tarea activa -----------")
+        print("----------- Menú de la Tarea 1 -----------")
         print("1) Verificación de que el host esté activo")
         print("2) Escaneo de puertos activos y sus respectivos servicios/versiones")
         print("3) Salir")
@@ -160,5 +160,6 @@ else:
 
 if __name__ == "__main__":
     menu()
+
 
 
