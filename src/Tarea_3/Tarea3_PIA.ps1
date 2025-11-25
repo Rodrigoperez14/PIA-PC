@@ -87,7 +87,7 @@ function Conexion_Internet {
 }
 
 function AbuseIPDB {
-    $apiKey = "510185c6d3b298b351fcd1a624d71d0a27c4d0d5c215d4214c22af9f3a5c1578d0c1808c553b9206"
+    $apiKey = "TU_API_KEY_AQUI"
     $url = "https://api.abuseipdb.com/api/v2/check"
     $lista_de_ips = Conexion_Internet
 
