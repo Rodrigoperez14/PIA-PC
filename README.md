@@ -202,7 +202,7 @@ Este componente mejora la **organización**, **automatización** y **flujo de tr
 
 ```
 python orquestacion.py
-
+```
 
 ## 📄 Licencia
 Proyecto desarrollado con fines académicos.  
