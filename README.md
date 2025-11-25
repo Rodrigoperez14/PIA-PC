@@ -15,6 +15,7 @@ El equipo se compromete a documentar cualquier riesgo ético y aplicar medidas d
 * [x] **Tarea 1: ScanPort (Completada)**
 * [x] **Tarea 2: ObsoleteTechFInder (Completada)**
 * [x] **Tarea 3: Análisis de ip´s sospechosas (Completada)**
+* [x] **Script de orquestación (Completado)**
 
 ## ✨ Características (Tarea 1)
 * Descubrimiento de Host (Ping ICMP).
@@ -172,3 +173,30 @@ Los scripts requieren:
     Una API key activa de OpenAI
     Una API key activa de AbuseIPDB
     Archivo S_V_de_puertos_activos.json
+
+
+## 🧩 Script de Orquestación
+
+Se desarrolló un **script de orquestación** cuyo objetivo es centralizar y controlar la ejecución de las diferentes tareas del proyecto.  
+Este script actúa como punto de entrada principal y permite seleccionar de forma interactiva qué tarea ejecutar sin necesidad de correr cada script por separado.
+
+### ✅ Funcionalidades principales
+
+- Importa los módulos:
+  - `Tarea1_PIA`
+  - `Tarea_2_PIA`
+  - `Menu_tarea3`
+- Presenta un menú interactivo en consola
+- Ejecuta la función `menu()` del script seleccionado
+- Valida entradas del usuario para evitar errores
+- Permite finalizar la ejecución de manera segura
+
+### 🎯 Propósito
+
+Este componente mejora la **organización**, **automatización** y **flujo de trabajo**, facilitando la ejecución de las tareas desde un único punto de control. Gracias a este diseño, el usuario puede navegar entre procesos sin modificar archivos ni ejecutar comandos adicionales.
+
+### ▶️ Ejecución
+
+```En Terminal
+python orquestacion.py
+
