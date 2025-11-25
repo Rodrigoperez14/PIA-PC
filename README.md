@@ -155,14 +155,17 @@ en el mismo directorio que tu script.
 ---
 
 ## 📁 Archivos generados
-Archivo	Descripción
-reporte_seguridad.txt	             Informe de seguridad generado por IA
-proceso.log.jsonl	                 Registros en formato estructurado JSONL
-S_V_de_puertos_activos.json	         Entrada del escaneo (proveniente de Nmap)
-Reporte_IPs_YYYYMMDD_HHMMSS.jsonl    Registros detallados de cada IP analizada
-Logs.jsonl                           Log centralizado de todas las ejecuciones
-Procesos_activos_YYYYMMDD_HHMMSS.csv	    Procesos activos exportados
-Conexiones_Procesos_YYYYMMDD_HHMMSS.csv	    Conexiones TCP y procesos asociados
+
+| Archivo | Descripción |
+|--------|-------------|
+| `reporte_seguridad.txt` | Informe de seguridad generado por IA con recomendaciones basadas en el escaneo de puertos. |
+| `proceso.log.jsonl` | Registros estructurados en formato JSONL del flujo completo de ejecución. |
+| `S_V_de_puertos_activos.json` | Archivo de entrada generado a partir del escaneo Nmap con puertos detectados. |
+| `Reporte_IPs_YYYYMMDD_HHMMSS.jsonl` | Reporte detallado por cada IP consultada en AbuseIPDB. |
+| `Logs.jsonl` | Log centralizado de todas las acciones realizadas por los scripts. |
+| `Procesos_activos_YYYYMMDD_HHMMSS.csv` | Exportación de procesos activos del sistema. |
+| `Conexiones_Procesos_YYYYMMDD_HHMMSS.csv` | Conexiones TCP detectadas y los procesos asociados. |
+
 
 
 ## 🎯 Requisitos de funcionamiento
