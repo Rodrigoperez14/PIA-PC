@@ -108,7 +108,7 @@ def comprobacion(n):
         log_json("Se termina la ejecución del programa")
         exit()
 
-def main():
+def menu():
     log_json("INICIA UNA NUEVA CONSULTA.")
     log_json("Se crea un menú interactivo.")
     while True:
@@ -159,5 +159,6 @@ else:
     log_json(f"Se trabajará en base a la ip predeterminada: {ip}")
 
 if __name__ == "__main__":
-    main()
+    menu()
+
 
