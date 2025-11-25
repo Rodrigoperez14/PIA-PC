@@ -200,6 +200,12 @@ Este componente mejora la **organización**, **automatización** y **flujo de tr
 
 ### ▶️ Ejecución
 
-```En Terminal
+```
 python orquestacion.py
+
+
+## 📄 Licencia
+Proyecto desarrollado con fines académicos.  
+No autorizado para uso ofensivo o no ético.
+
 
