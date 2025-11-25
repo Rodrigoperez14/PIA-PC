@@ -11,22 +11,27 @@ def ejecutar_powershell(accion):
         print("⚠️ Error:", resultado.stderr)
 
 # Menú interactivo
-while True:
-    print("\n--- Menú Forense Tarea 3 ---")
-    print("1. Procesos activos")
-    print("2. Conexiones a Internet + AbuseIPDB")
-    print("3. Salir")
-    opcion = input("Selecciona una opción: ")
+def menu():
+    while True:
+        print("\n--- Menú Forense Tarea 3 ---")
+        print("1. Procesos activos")
+        print("2. Conexiones a Internet + AbuseIPDB")
+        print("3. Salir")
+        opcion = input("Selecciona una opción: ")
 
-    if opcion == "1":
-        ejecutar_powershell("procesos")
-    elif opcion == "2":
-        # Ejecuta primero Conexion-Internet
-        ejecutar_powershell("conexion")
-        # Luego automáticamente AbuseIPDB
-        ejecutar_powershell("abuse")
-    elif opcion == "3":
-        print("Saliendo...")
-        break
-    else:
-        print("Opción no válida.")
+        if opcion == "1":
+            ejecutar_powershell("procesos")
+        elif opcion == "2":
+            # Ejecuta primero Conexion-Internet
+            ejecutar_powershell("conexion")
+            # Luego automáticamente AbuseIPDB
+            ejecutar_powershell("abuse")
+        elif opcion == "3":
+            print("Saliendo...")
+            break
+        else:
+            print("Opción no válida.")
+
+if __name__ == "__main__":
+    menu()
+
