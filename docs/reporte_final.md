@@ -33,8 +33,7 @@ Estos cambios permitieron cumplir correctamente el objetivo sin redundancias ni 
 
 ## 👥 Cambios en roles o distribución del trabajo
 
-> Sí hubo una reasignación de responsabilidades dentro del equipo. La tarea 2, referente al uso de IA, originalmente estaba asignada al compañero **Rodolfo Uriel Hernández De León**, pero durante el desarrollo pasó a ser responsabilidad de **José Rodrigo González Pérez**.
-> La tarea 2 y la tarea 3 originalmente correspondían a **Rodolfo Uriel Hernández De León** y **José Rodrigo González Pérez**, respectivamente, pero fueron intercambiadas debido a la carga académica de ambos. El impacto fue positivo, ya que se ajustó de manera adecuada a sus demás materias y permitió que José Rodrigo González Pérez adquiriera aprendizaje y práctica en el uso de consultas a una API.
+> Sí hubo una reasignación de responsabilidades dentro del equipo. La tarea 2, referente al uso de IA, originalmente estaba asignada al compañero **Rodolfo Uriel Hernández De León**, pero durante el desarrollo pasó a ser responsabilidad de **José Rodrigo González Pérez** debido a la carga académica de ambos. El impacto fue positivo, ya que se ajustó de manera adecuada a sus demás materias y permitió que José Rodrigo González Pérez adquiriera aprendizaje y práctica en el uso de consultas a una API.
 
 ---
 
@@ -57,4 +56,5 @@ Estos cambios permitieron cumplir correctamente el objetivo sin redundancias ni 
 > Confirmamos que la última actualización del repositorio fue realizada **antes del 25 de noviembre a las 23:59 hrs (hora local de Monterrey).**
 - **Fecha del último commit:** [2025-11-25 hh:mm]  
 - **Usuario responsable del cierre:** *Rodolfo Uriel Hernández De León*
+
 
