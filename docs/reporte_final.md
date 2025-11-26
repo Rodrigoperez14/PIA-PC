@@ -58,3 +58,4 @@ Estos cambios permitieron cumplir correctamente el objetivo sin redundancias ni 
 - **Usuario responsable del cierre:** *Rodolfo Uriel Hernández De León*
 
 
+
