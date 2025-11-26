@@ -40,6 +40,7 @@ Estos cambios permitieron cumplir correctamente el objetivo sin redundancias ni 
 ## 🧭 Decisiones técnicas relevantes
 
 > Una de las decisiones tomadas fue reutilizar código previamente desarrollado en las tareas 1 y 3 del curso de "Programación para ciberseguridad", lo que permitió aplicar buenas prácticas.
+> 
 > En la tarea 1 se realizó un ajuste en el manejo de logs, pasando de usar el módulo `logging` a implementar una técnica para generar el registro directamente en formato **.jsonl**.
 
 ---
@@ -56,6 +57,7 @@ Estos cambios permitieron cumplir correctamente el objetivo sin redundancias ni 
 > Confirmamos que la última actualización del repositorio fue realizada **antes del 25 de noviembre a las 23:59 hrs (hora local de Monterrey).**
 - **Fecha del último commit:** [2025-11-25 hh:mm]  
 - **Usuario responsable del cierre:** *Rodolfo Uriel Hernández De León*
+
 
 
 
