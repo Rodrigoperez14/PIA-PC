@@ -12,10 +12,44 @@ Este proyecto se desarrollará exclusivamente con datos propios de los integrant
 El equipo se compromete a documentar cualquier riesgo ético y aplicar medidas de mitigación adecuadas.
 
 ## 🚀 Progreso del Proyecto
-* [x] **Tarea 1: ScanPort (Completada)**
-* [x] **Tarea 2: ObsoleteTechFInder (Completada)**
-* [x] **Tarea 3: Análisis de ip´s sospechosas (Completada)**
-* [x] **Script de orquestación (Completado)**
+* [x] **Tarea 1: ScanPort (Completada) -> Victor Adrian Rodriguez Ortiz**
+* [x] **Tarea 2: ObsoleteTechFInder (Completada) -> José Rodrigo González Pérez**
+* [x] **Tarea 3: Análisis de ip´s sospechosas (Completada) -> Rodolfo Uriel Hernández De León**
+* [x] **Script de orquestación (Completado) -> Victor Adrian Rodriguez Ortiz**
+
+## 📂 Estructura del Proyecto
+
+```
+PIA-PC/
+├── docs/                   # Documentación y entregables del proyecto
+│   ├── ai_plan.md
+│   ├── entregable_2.md
+│   ├── entregable_3.md
+│   ├── entregable_4.md
+│   ├── propuesta.md
+│   └── reporte_final.md
+├── examples/               # Ejemplos de ejecución o resultados
+│   ├── Tarea 1/
+│   ├── Tarea 2/
+│   ├── Tarea 3/
+│   └── script_de_orquestacion/
+├── prompts/                # Prompts utilizados (IA)
+│   └── tarea 2/
+├── proposals/              # Propuesta inicial
+│   └── propuesta.md
+├── scripts/                # Scripts ejecutables
+│   ├── Menu_tarea3.py
+│   ├── Tarea1_PIA.py
+│   ├── Tarea_2_PIA.py
+│   ├── Tarea3_PIA.ps1
+│   └── orquestacion.py
+├── src/                    # Código fuente organizado por tareas
+│   ├── Tarea 1/
+│   ├── Tarea 2/
+│   └── Tarea 3/
+├── .gitignore
+└── README.md
+```
 
 ## ✨ Características (Tarea 1)
 * Descubrimiento de Host (Ping ICMP).
