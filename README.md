@@ -34,7 +34,7 @@ PIA-PC/
 │   ├── Tarea 3/
 │   └── script_de_orquestacion/
 ├── prompts/                # Prompts utilizados (IA)
-│   └── tarea 2/
+│   └── Tarea 2/
 ├── proposals/              # Propuesta inicial
 │   └── propuesta.md
 ├── scripts/                # Scripts ejecutables
